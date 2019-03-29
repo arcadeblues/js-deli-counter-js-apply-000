@@ -1,6 +1,7 @@
 // accepts 2 parameters, adds values to array and returns values in a string
 function takeANumber(line,newPerson){
-  line.push(newPerson);
+  var newLine=[]
+  newLine.push(newPerson);
   return ('Welcome, ' + newPerson + '. You are number '+ line.length +' in line.');
 }
 
