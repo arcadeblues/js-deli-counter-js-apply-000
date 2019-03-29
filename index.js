@@ -2,7 +2,7 @@
 function takeANumber(line,newPerson){
   var newLine=[]
   newLine.push(newPerson);
-  return ('Welcome, ' + newPerson + '. You are number '+ newLine.length +' in line.');
+  return ('Welcome, ' + newPerson + '. You are number '+ line.length +' in line.');
 }
 
 //accept a parameter and uses conditional statement to remove person from line
